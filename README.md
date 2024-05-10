@@ -35,7 +35,7 @@ Screenshots of both client terminals engaged in a chat conversation:
 
 - Client1 Terminal:
 
-  ![Client 1 Terminal](https://drive.google.com/file/d/1UIkT8omgdEAz9WGOFsDg-i4OYmuCRNr3/view?usp=sharing)
+  ![Client 1 Terminal](https://github.com/LETME2X/CHAT-APPLICATION-USING-CPP/blob/875c8a1fd6ee713ca6eca522a953120420889db0/client.png)
 
 - Client2 Terminal:
 
