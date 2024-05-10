@@ -25,7 +25,7 @@ This repository contains a simple chat application implemented in C++ using Micr
 
 The server terminal when it's running and waiting for client connections:
 
-![Server Terminal](https://drive.google.com/file/d/1x0dHWPOQOnuLfZlKHEkhqGUgIaovmSIQ/view?usp=sharing)
+![Server Terminal](https://github.com/LETME2X/CHAT-APPLICATION-USING-CPP/blob/541afd06bd902ccac0492ff5a3114578254def3b/server.png)
 
 ### Client Setup
 
