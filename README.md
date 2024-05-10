@@ -20,6 +20,28 @@ This repository contains a simple chat application implemented in C++ using Micr
 2. **Client Setup**: Compile and run the client application. Enter the server's IP address and port number to connect.
 3. **Chatting**: Once connected, users can send messages to the server, which broadcasts them to all other connected clients.
 
+
+### Server Setup
+
+The server terminal when it's running and waiting for client connections:
+
+![Server Terminal](https://drive.google.com/file/d/1x0dHWPOQOnuLfZlKHEkhqGUgIaovmSIQ/view?usp=sharing)
+
+### Client Setup
+
+### Chatting
+
+Screenshots of both client terminals engaged in a chat conversation:
+
+- Client1 Terminal:
+
+  ![Client 1 Terminal](https://drive.google.com/file/d/1UIkT8omgdEAz9WGOFsDg-i4OYmuCRNr3/view?usp=sharing)
+
+- Client2 Terminal:
+
+  ![Client 2 Terminal](https://drive.google.com/file/d/1BtEubqDuQxq5tTVkFhFHzY4kTvCH3Bjd/view?usp=sharing)
+
+
 ### Code Structure
 
 - **Server**: The server code (`server.cpp`) handles socket initialization, client connections, and message broadcasting.
@@ -27,6 +49,17 @@ This repository contains a simple chat application implemented in C++ using Micr
 
 ### How to Compile and Run
 
-1. **Server Compilation**: Compile the server code using a C++ compiler. For example:
-   ```bash
-   g++ server.cpp -o server -lws2_32
+```bash
+# Server Compilation
+g++ server.cpp -o server -lws2_32
+
+# Server Execution
+./server
+
+# Client Compilation
+g++ client.cpp -o client -lws2_32
+
+# Client Execution
+./client
+
+
